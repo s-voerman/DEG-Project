@@ -2,7 +2,7 @@
 Code used to generate figures/data
 
 # Version information
-Python 3.8.18
+Python 3.8.18 /
 Anaconda 3 version 23.11.0
 Pandas 2.0.3
 Numpy 1.24.3
