@@ -15,3 +15,6 @@ Seaborn 0.12.2
 Matplotlib 3.7.2
 
 Neo 0.12.0
+
+
+If you experience issues or have questions you can contact me: s.voerman@erasmusmc.nl
