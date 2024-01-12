@@ -40,7 +40,7 @@ def fig5a():
     return fig, ax
 
 def fig5b():
-    data = pd.read_excel('//storage/v/vcl15/ddata/NEUW/dezeeuw/Stijn Voerman/DEG Project/Datasets/genelist1.xlsx')
+    data = pd.read_excel('genelist1.xlsx')
     data = data.drop('avg_logFC', axis=1)
     data = data.drop('pct.1', axis=1)
     data = data.drop('pct.2', axis=1)
