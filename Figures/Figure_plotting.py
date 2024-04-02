@@ -12,7 +12,7 @@ import os
 'Fonts/font size may be slightly off depending on the plot. Font size can be adjusted.'
 
 def fig5a():
-    data = pd.read_excel('genelist1.xlsx')
+    data = pd.read_excel('Fig5a5b.xlsx')
     data = data.drop('avg_logFC', axis=1)
     data = data.drop('pct.1', axis=1)
     data = data.drop('pct.2', axis=1)
@@ -40,7 +40,7 @@ def fig5a():
     return fig, ax
 
 def fig5b():
-    data = pd.read_excel('genelist1.xlsx')
+    data = pd.read_excel('Fig5a5b.xlsx')
     data = data.drop('avg_logFC', axis=1)
     data = data.drop('pct.1', axis=1)
     data = data.drop('pct.2', axis=1)
@@ -95,8 +95,8 @@ def AST(data):
 
 def fig5e():
     #Data processing
-    aldoc_data = pd.read_excel('EASE_Aldoc.xlsx')
-    plcb4_data = pd.read_excel('EASE_Plcb4.xlsx')
+    aldoc_data = pd.read_excel('Fig5e_Aldoc.xlsx')
+    plcb4_data = pd.read_excel('Fig5b_Plcb4.xlsx')
     aldoc_data = aldoc_data.loc[aldoc_data['Fold enrichment'] > 10]
     aldoc_data = aldoc_data.loc[aldoc_data['P-value'] < 0.05]
     plcb4_data = plcb4_data.loc[plcb4_data['P-value'] < 0.05]
