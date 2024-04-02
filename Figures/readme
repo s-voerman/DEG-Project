@@ -1,7 +1,7 @@
 Data files and script used in figure generation
 
 Excel sheets and .ABF file must be located in the right directory or code must refer to the right directory so that they can be properly loaded. 
-For example, if you save genelist1.xlsx on your C:/sheets/ your code should look something like this:
-pd.read_excel('C:/sheets/genelist1.xlsx')
+For example, if you save Fig5a5b.xlsx on C:/sheets/ your code should look something like this:
+pd.read_excel('C:/sheets/Fig5a5b.xlsx')
 
-You should also change output_loc to desired location to save .pdf per figure panel.
+You may also change output_loc to desired location to save .pdf per figure panel.
